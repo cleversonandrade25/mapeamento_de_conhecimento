@@ -22,7 +22,7 @@
             </div>
         </div>
         
-        <div id="ui-progress" class="progress-container">
+        <div id="ui-progress" class="progress-container" style="display: none;">
             <div class="progress-info">
                 <span id="progress-text">Questão <span id="current-question">0</span> de 10</span>
                 <span id="progress-percent">0%</span>
@@ -178,14 +178,10 @@
         document.getElementById('slide-login').classList.remove('active');
         document.getElementById('ui-progress').style.display = 'block';
         
-        // Mostrar carregamento
-        document.getElementById('slide-quiz').innerHTML = `
-            <div class="loading">
-                <div class="spinner"></div>
-                <p>Carregando questões...</p>
-            </div>
-        `;
+        // Adicionar classe de carregamento
         document.getElementById('slide-quiz').classList.add('active');
+        document.getElementById('pergunta-texto').innerHTML = '<div class="loading-spinner"></div><p>Carregando questões...</p>';
+        document.getElementById('opcoes').innerHTML = '';
         
         try {
             const res = await fetch('perguntas.json');
@@ -205,36 +201,12 @@
         clearInterval(timerInterval);
         
         const q = selecionadas[atual];
-        document.getElementById('slide-quiz').innerHTML = `
-            <div class="quiz-card">
-                <div class="question-header">
-                    <div class="question-number">
-                        <span class="number">#<span id="question-num">${atual + 1}</span></span>
-                        <span class="tag" id="question-tag">${q.assunto}</span>
-                    </div>
-                    <div class="timer">
-                        <i class="fas fa-clock"></i>
-                        <span id="timer-display">0s</span>
-                    </div>
-                </div>
-                
-                <div class="question-container">
-                    <h3 id="pergunta-texto">${q.pergunta}</h3>
-                    <div id="opcoes" class="options-container"></div>
-                </div>
-                
-                <div class="navigation">
-                    <div class="counter">
-                        <i class="fas fa-list-ol"></i>
-                        <span id="counter-display">${atual + 1}/10</span>
-                    </div>
-                    <div class="hint">
-                        <i class="fas fa-lightbulb"></i>
-                        <span>Selecione uma alternativa para continuar</span>
-                    </div>
-                </div>
-            </div>
-        `;
+        
+        // Atualizar elementos
+        document.getElementById('question-num').textContent = atual + 1;
+        document.getElementById('question-tag').textContent = q.assunto;
+        document.getElementById('pergunta-texto').textContent = q.pergunta;
+        document.getElementById('counter-display').textContent = `${atual + 1}/10`;
         
         // Atualizar barra de progresso
         const progressPercent = ((atual + 1) * 10);
@@ -245,10 +217,14 @@
         
         // Adicionar alternativas
         const lista = document.getElementById('opcoes');
+        lista.innerHTML = "";
+        
         q.alternativas.forEach(alt => {
             const btn = document.createElement('button');
             btn.className = 'opt-btn';
-            btn.innerHTML = `<span class="option-letter">${alt.substring(0, 3)}</span>${alt.substring(3)}`;
+            const letter = alt.substring(0, 3);
+            const text = alt.substring(3);
+            btn.innerHTML = `<span class="option-letter">${letter}</span>${text}`;
             btn.onclick = () => salvarResposta(alt);
             lista.appendChild(btn);
         });
@@ -256,6 +232,8 @@
         // Iniciar timer
         tempoInicio = Date.now();
         let seconds = 0;
+        document.getElementById('timer-display').textContent = '0s';
+        
         timerInterval = setInterval(() => {
             seconds = Math.floor((Date.now() - tempoInicio) / 1000);
             document.getElementById('timer-display').textContent = `${seconds}s`;
@@ -279,6 +257,7 @@
 
         atual++;
         if (atual < 10) {
+            // Pequeno atraso para feedback visual
             setTimeout(() => mostrarQuestao(), 300);
         } else {
             finalizar();
@@ -307,7 +286,11 @@
         const circle = document.getElementById('score-circle');
         const circumference = 339.292; // 2 * π * 54
         const offset = circumference - (acertos / 10 * circumference);
-        circle.style.strokeDashoffset = offset;
+        
+        // Adicionar animação após um pequeno delay
+        setTimeout(() => {
+            circle.style.strokeDashoffset = offset;
+        }, 500);
         
         // Animar contador de pontuação
         let currentScore = 0;
@@ -360,5 +343,22 @@
         });
     }
 </script>
+
+<style>
+    .loading-spinner {
+        border: 5px solid #f3f3f3;
+        border-top: 5px solid #003399;
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        animation: spin 1s linear infinite;
+        margin: 0 auto 20px;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+</style>
 </body>
 </html>
