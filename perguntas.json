@@ -1,0 +1,24 @@
+[
+    {
+        "assunto": "Primeiros Socorros",
+        "pergunta": "Qual o protocolo para suspeita de parada cardiorrespiratória na plataforma?",
+        "alternativas": [
+            "A) Iniciar compressões e acionar o SAMU via CCO",
+            "B) Aguardar a chegada do supervisor",
+            "C) Transportar o usuário para o mezanino imediatamente",
+            "D) Aplicar apenas ventilação de resgate"
+        ],
+        "correta": "A"
+    },
+    {
+        "assunto": "Incêndio",
+        "pergunta": "Qual extintor deve ser usado em equipamentos elétricos energizados?",
+        "alternativas": [
+            "A) Água Pressurizada",
+            "B) CO2 ou Pó Químico",
+            "C) Espuma Mecânica",
+            "D) Areia Seca"
+        ],
+        "correta": "B"
+    }
+]
