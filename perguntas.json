@@ -1,24 +1,222 @@
 [
     {
-        "assunto": "Primeiros Socorros",
-        "pergunta": "Qual o protocolo para suspeita de parada cardiorrespiratória na plataforma?",
+        "assunto": "Atendimento",
+        "pergunta": "Qual a primeira atitude ao abordar um usuário com deficiência visual na plataforma?",
         "alternativas": [
-            "A) Iniciar compressões e acionar o SAMU via CCO",
-            "B) Aguardar a chegada do supervisor",
-            "C) Transportar o usuário para o mezanino imediatamente",
-            "D) Aplicar apenas ventilação de resgate"
+            "A) Segurá-lo pelo braço e conduzi-lo.",
+            "B) Identificar-se e perguntar se ele necessita de auxílio.",
+            "C) Avisar em voz alta que o trem está chegando.",
+            "D) Retirar as pessoas do caminho dele."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Emergência",
+        "pergunta": "Em caso de objeto caído na via com o trem se aproximando, qual o procedimento?",
+        "alternativas": [
+            "A) Pular na via para retirar o objeto rapidamente.",
+            "B) Tentar pescar o objeto com um bastão de madeira.",
+            "C) Acionar a parada de emergência e comunicar o CCO.",
+            "D) Aguardar o trem passar para ver se o objeto foi danificado."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Primeiros Socorros",
+        "pergunta": "Ao prestar socorro a uma vítima de desmaio, qual a posição recomendada?",
+        "alternativas": [
+            "A) Sentada com a cabeça entre os joelhos.",
+            "B) De pé para recuperar a consciência.",
+            "C) Deitada de costas com as pernas levemente elevadas.",
+            "D) Deitada de bruços para evitar sufocamento."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Segurança",
+        "pergunta": "Qual o nível de força inicial em uma abordagem tática de conflito verbal?",
+        "alternativas": [
+            "A) Uso de algemas.",
+            "B) Presença física e verbalização.",
+            "C) Uso de spray de pimenta.",
+            "D) Imobilização tática."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Operacional",
+        "pergunta": "O que significa a sigla CCO no ambiente metroviário?",
+        "alternativas": [
+            "A) Central de Controle Operacional.",
+            "B) Centro de Comando de Ônibus.",
+            "C) Controle Central de Operários.",
+            "D) Comando de Comunicação Obrigatória."
         ],
         "correta": "A"
     },
     {
         "assunto": "Incêndio",
-        "pergunta": "Qual extintor deve ser usado em equipamentos elétricos energizados?",
+        "pergunta": "O extintor de Água Pressurizada é indicado para qual classe de incêndio?",
         "alternativas": [
-            "A) Água Pressurizada",
-            "B) CO2 ou Pó Químico",
-            "C) Espuma Mecânica",
-            "D) Areia Seca"
+            "A) Classe B (Líquidos inflamáveis).",
+            "B) Classe C (Equipamentos elétricos).",
+            "C) Classe A (Papel, madeira, tecidos).",
+            "D) Classe D (Metais combustíveis)."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Normas",
+        "pergunta": "É permitido o transporte de bicicletas no metrô em quais horários?",
+        "alternativas": [
+            "A) Em qualquer horário, desde que no último vagão.",
+            "B) Apenas nos horários de pico.",
+            "C) Fora dos horários de pico e em períodos específicos definidos pela empresa.",
+            "D) Somente aos domingos e feriados."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Segurança",
+        "pergunta": "Qual o procedimento correto ao encontrar uma mochila abandonada na estação?",
+        "alternativas": [
+            "A) Abrir para identificar o dono.",
+            "B) Levar imediatamente para o achados e perdidos.",
+            "C) Isolar a área e informar o CCO para avaliação de risco.",
+            "D) Chutar para verificar se há algo pesado dentro."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Primeiros Socorros",
+        "pergunta": "Em uma suspeita de fratura no membro inferior, o que o agente deve fazer?",
+        "alternativas": [
+            "A) Tentar colocar o osso no lugar.",
+            "B) Imobilizar o membro na posição encontrada e aguardar o resgate.",
+            "C) Pedir para o usuário caminhar para testar a dor.",
+            "D) Massagear o local com pomada analgésica."
         ],
         "correta": "B"
+    },
+    {
+        "assunto": "Operacional",
+        "pergunta": "A faixa amarela na plataforma serve para:",
+        "alternativas": [
+            "A) Decorar a estação.",
+            "B) Indicar o local onde as portas do trem abrem.",
+            "C) Delimitar a distância de segurança entre o usuário e a via.",
+            "D) Marcar o local de espera para idosos."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Emergência",
+        "pergunta": "O que deve ser feito se um usuário acionar o alarme de emergência dentro do trem?",
+        "alternativas": [
+            "A) O operador deve parar o trem imediatamente no túnel.",
+            "B) O agente na estação próxima deve se preparar para o atendimento.",
+            "C) Ignorar se não houver fumaça.",
+            "D) Desligar o sistema de som do trem."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Atendimento",
+        "pergunta": "Como deve ser o atendimento a uma mulher grávida que se sente mal na estação?",
+        "alternativas": [
+            "A) Oferecer água e açúcar imediatamente.",
+            "B) Acomodá-la em local ventilado e solicitar apoio médico.",
+            "C) Ignorar, pois é comum grávidas passarem mal.",
+            "D) Orientá-la a procurar um hospital por conta própria."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Segurança tática",
+        "pergunta": "O uso de algemas é permitido em qual situação?",
+        "alternativas": [
+            "A) Sempre que um usuário desobedecer uma ordem.",
+            "B) Em casos de resistência e fundado receio de fuga ou perigo à integridade própria ou alheia.",
+            "C) Apenas com autorização judicial prévia.",
+            "D) Para punir desacato verbal."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Sinalização",
+        "pergunta": "O que indica uma luz vermelha fixa no sistema de sinalização de via?",
+        "alternativas": [
+            "A) Velocidade reduzida.",
+            "B) Prosseguir com cautela.",
+            "C) Parada obrigatória.",
+            "D) Via livre para manobra."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Conflitos",
+        "pergunta": "Ao mediar uma briga entre dois usuários, qual a posição de segurança do agente?",
+        "alternativas": [
+            "A) Entre os dois usuários, de costas para um deles.",
+            "B) Manter uma distância segura em um ângulo que permita ver ambos (triangulação).",
+            "C) Tocar no ombro de ambos para acalmá-los.",
+            "D) Gritar mais alto que eles para impor autoridade."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Incêndio",
+        "pergunta": "Onde se localizam geralmente os hidrantes em uma estação subterrânea?",
+        "alternativas": [
+            "A) Apenas dentro da cabine do operador.",
+            "B) Em pontos estratégicos sinalizados nas plataformas e mezaninos.",
+            "C) Escondidos atrás das bilheterias.",
+            "D) Somente na superfície, fora da estação."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Operacional",
+        "pergunta": "Qual a voltagem aproximada do terceiro trilho em sistemas de metrô comuns?",
+        "alternativas": [
+            "A) 110V.",
+            "B) 220V.",
+            "C) 750V a 1500V (Corrente Contínua).",
+            "D) 5000V (Corrente Alternada)."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Primeiros Socorros",
+        "pergunta": "O que é um DEA?",
+        "alternativas": [
+            "A) Dispositivo Eletrônico de Alarme.",
+            "B) Desfibrilador Externo Automático.",
+            "C) Departamento de Emergência e Apoio.",
+            "D) Detetor de Emissão de Ar."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Ética",
+        "pergunta": "Um agente de segurança pode aceitar gratificações de usuários por serviços prestados?",
+        "alternativas": [
+            "A) Sim, se for um valor pequeno.",
+            "B) Apenas se o serviço foi fora do horário de trabalho.",
+            "C) Não, sob nenhuma hipótese (ferimento ao código de ética).",
+            "D) Sim, se for um presente em datas comemorativas."
+        ],
+        "correta": "C"
+    },
+    {
+        "assunto": "Comunicação",
+        "pergunta": "No código "Q", muito usado em rádios, o que significa "QAP"?",
+        "alternativas": [
+            "A) Estar na escuta / Pronto para receber mensagem.",
+            "B) Localização atual.",
+            "C) Mensagem compreendida.",
+            "D) Emergência grave."
+        ],
+        "correta": "A"
     }
 ]
