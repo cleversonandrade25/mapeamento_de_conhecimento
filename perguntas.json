@@ -1,222 +1,222 @@
 [
     {
-        "assunto": "Atendimento",
-        "pergunta": "Qual a primeira atitude ao abordar um usuário com deficiência visual na plataforma?",
+        "assunto": "Conceitos",
+        "pergunta": "Segundo o MO 13-801-0229, o que define um Evento Especial?",
         "alternativas": [
-            "A) Segurá-lo pelo braço e conduzi-lo.",
-            "B) Identificar-se e perguntar se ele necessita de auxílio.",
-            "C) Avisar em voz alta que o trem está chegando.",
-            "D) Retirar as pessoas do caminho dele."
+            "A) Qualquer feriado nacional ou estadual.",
+            "B) Evento com potencial de alteração do fluxo normal de usuários, exigindo estratégia operacional.",
+            "C) Apenas jogos de futebol e grandes shows.",
+            "D) Qualquer interrupção programada para manutenção da via."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Emergência",
-        "pergunta": "Em caso de objeto caído na via com o trem se aproximando, qual o procedimento?",
+        "assunto": "Classificação",
+        "pergunta": "Como é classificado um evento de Nível 1 (Baixo Impacto)?",
         "alternativas": [
-            "A) Pular na via para retirar o objeto rapidamente.",
-            "B) Tentar pescar o objeto com um bastão de madeira.",
-            "C) Acionar a parada de emergência e comunicar o CCO.",
-            "D) Aguardar o trem passar para ver se o objeto foi danificado."
+            "A) Público estimado de 50.000 a 100.000 pessoas.",
+            "B) Público de 20.000 a 50.000 pessoas.",
+            "C) Público estimado até 20.000 pessoas.",
+            "D) Público acima de 100.000 pessoas."
         ],
         "correta": "C"
     },
     {
-        "assunto": "Primeiros Socorros",
-        "pergunta": "Ao prestar socorro a uma vítima de desmaio, qual a posição recomendada?",
+        "assunto": "Classificação",
+        "pergunta": "Um evento classificado como Nível 4 (Impacto Crítico) possui qual estimativa de público?",
         "alternativas": [
-            "A) Sentada com a cabeça entre os joelhos.",
-            "B) De pé para recuperar a consciência.",
-            "C) Deitada de costas com as pernas levemente elevadas.",
-            "D) Deitada de bruços para evitar sufocamento."
-        ],
-        "correta": "C"
-    },
-    {
-        "assunto": "Segurança",
-        "pergunta": "Qual o nível de força inicial em uma abordagem tática de conflito verbal?",
-        "alternativas": [
-            "A) Uso de algemas.",
-            "B) Presença física e verbalização.",
-            "C) Uso de spray de pimenta.",
-            "D) Imobilização tática."
-        ],
-        "correta": "B"
-    },
-    {
-        "assunto": "Operacional",
-        "pergunta": "O que significa a sigla CCO no ambiente metroviário?",
-        "alternativas": [
-            "A) Central de Controle Operacional.",
-            "B) Centro de Comando de Ônibus.",
-            "C) Controle Central de Operários.",
-            "D) Comando de Comunicação Obrigatória."
+            "A) Acima de 100.000 pessoas.",
+            "B) Entre 50.000 e 100.000 pessoas.",
+            "C) Entre 10.000 e 20.000 pessoas.",
+            "D) Público irrelevante para a segurança."
         ],
         "correta": "A"
     },
     {
-        "assunto": "Incêndio",
-        "pergunta": "O extintor de Água Pressurizada é indicado para qual classe de incêndio?",
+        "assunto": "Operacional",
+        "pergunta": "Qual o tempo de antecedência para o início da 'Operação Ida' em grandes eventos?",
         "alternativas": [
-            "A) Classe B (Líquidos inflamáveis).",
-            "B) Classe C (Equipamentos elétricos).",
-            "C) Classe A (Papel, madeira, tecidos).",
-            "D) Classe D (Metais combustíveis)."
+            "A) 1 hora antes do evento.",
+            "B) 5 horas antes do evento.",
+            "C) 3 horas antes do início do evento.",
+            "D) Somente quando o primeiro usuário chegar."
         ],
         "correta": "C"
     },
     {
-        "assunto": "Normas",
-        "pergunta": "É permitido o transporte de bicicletas no metrô em quais horários?",
+        "assunto": "Operacional",
+        "pergunta": "Quanto tempo após o término do evento a 'Operação Retorno' deve ser encerrada?",
         "alternativas": [
-            "A) Em qualquer horário, desde que no último vagão.",
-            "B) Apenas nos horários de pico.",
-            "C) Fora dos horários de pico e em períodos específicos definidos pela empresa.",
-            "D) Somente aos domingos e feriados."
+            "A) Imediatamente após o fim do evento.",
+            "B) 02 horas após o término do evento.",
+            "C) 05 horas após o término do evento.",
+            "D) Quando a última estação do sistema fechar."
         ],
-        "correta": "C"
+        "correta": "B"
     },
     {
         "assunto": "Segurança",
-        "pergunta": "Qual o procedimento correto ao encontrar uma mochila abandonada na estação?",
+        "pergunta": "Qual a distribuição mínima de equipes para um evento de Nível 4 na Operação Ida?",
         "alternativas": [
-            "A) Abrir para identificar o dono.",
-            "B) Levar imediatamente para o achados e perdidos.",
-            "C) Isolar a área e informar o CCO para avaliação de risco.",
-            "D) Chutar para verificar se há algo pesado dentro."
+            "A) No mínimo 05 equipes.",
+            "B) No mínimo 10 equipes.",
+            "C) No mínimo 15 equipes.",
+            "D) No mínimo 20 equipes distribuídas estrategicamente."
         ],
-        "correta": "C"
+        "correta": "D"
     },
     {
-        "assunto": "Primeiros Socorros",
-        "pergunta": "Em uma suspeita de fratura no membro inferior, o que o agente deve fazer?",
+        "assunto": "Estratégia",
+        "pergunta": "O que deve ser priorizado na Operação Retorno de um evento nível 3 ou 4?",
         "alternativas": [
-            "A) Tentar colocar o osso no lugar.",
-            "B) Imobilizar o membro na posição encontrada e aguardar o resgate.",
-            "C) Pedir para o usuário caminhar para testar a dor.",
-            "D) Massagear o local com pomada analgésica."
+            "A) A limpeza das estações periféricas.",
+            "B) O controle de fluxo nas estações próximas ao local do evento e transferências.",
+            "C) A venda de bilhetes em todas as bilheterias.",
+            "D) O fechamento antecipado dos acessos secundários."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Operacional",
-        "pergunta": "A faixa amarela na plataforma serve para:",
+        "assunto": "Planejamento",
+        "pergunta": "Quem é o responsável pela elaboração do planejamento operacional de segurança segundo o manual?",
         "alternativas": [
-            "A) Decorar a estação.",
-            "B) Indicar o local onde as portas do trem abrem.",
-            "C) Delimitar a distância de segurança entre o usuário e a via.",
-            "D) Marcar o local de espera para idosos."
-        ],
-        "correta": "C"
-    },
-    {
-        "assunto": "Emergência",
-        "pergunta": "O que deve ser feito se um usuário acionar o alarme de emergência dentro do trem?",
-        "alternativas": [
-            "A) O operador deve parar o trem imediatamente no túnel.",
-            "B) O agente na estação próxima deve se preparar para o atendimento.",
-            "C) Ignorar se não houver fumaça.",
-            "D) Desligar o sistema de som do trem."
+            "A) Apenas os agentes de estação.",
+            "B) A Gerência de Operações (GOP) através das áreas OPS/CS1/CS2.",
+            "C) O sindicato dos metroviários.",
+            "D) A empresa organizadora do evento externo."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Atendimento",
-        "pergunta": "Como deve ser o atendimento a uma mulher grávida que se sente mal na estação?",
+        "assunto": "Riscos",
+        "pergunta": "Qual é um dos principais riscos listados no manual para eventos especiais?",
         "alternativas": [
-            "A) Oferecer água e açúcar imediatamente.",
-            "B) Acomodá-la em local ventilado e solicitar apoio médico.",
-            "C) Ignorar, pois é comum grávidas passarem mal.",
-            "D) Orientá-la a procurar um hospital por conta própria."
+            "A) Aumento na venda de bilhetes unitários.",
+            "B) Dano ao patrimônio da empresa.",
+            "C) Falta de energia elétrica na cidade.",
+            "D) Redução do número de trens em circulação."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Segurança tática",
-        "pergunta": "O uso de algemas é permitido em qual situação?",
+        "assunto": "Oportunidades",
+        "pergunta": "O manual cita como 'Oportunidade' em eventos especiais:",
         "alternativas": [
-            "A) Sempre que um usuário desobedecer uma ordem.",
-            "B) Em casos de resistência e fundado receio de fuga ou perigo à integridade própria ou alheia.",
-            "C) Apenas com autorização judicial prévia.",
-            "D) Para punir desacato verbal."
+            "A) Aumentar o valor da tarifa temporariamente.",
+            "B) Preservar a imagem da empresa perante a sociedade.",
+            "C) Reduzir o quadro de funcionários no dia.",
+            "D) Testar novos equipamentos de bilhetagem."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Sinalização",
-        "pergunta": "O que indica uma luz vermelha fixa no sistema de sinalização de via?",
+        "assunto": "Classificação",
+        "pergunta": "O nível de classificação de um evento pode ser alterado no dia da realização?",
         "alternativas": [
-            "A) Velocidade reduzida.",
-            "B) Prosseguir com cautela.",
-            "C) Parada obrigatória.",
-            "D) Via livre para manobra."
-        ],
-        "correta": "C"
-    },
-    {
-        "assunto": "Conflitos",
-        "pergunta": "Ao mediar uma briga entre dois usuários, qual a posição de segurança do agente?",
-        "alternativas": [
-            "A) Entre os dois usuários, de costas para um deles.",
-            "B) Manter uma distância segura em um ângulo que permita ver ambos (triangulação).",
-            "C) Tocar no ombro de ambos para acalmá-los.",
-            "D) Gritar mais alto que eles para impor autoridade."
+            "A) Não, uma vez planejado não se altera.",
+            "B) Sim, dependendo da quantidade ou comportamento dos participantes.",
+            "C) Somente se houver chuva forte.",
+            "D) Apenas se o CCO autorizar a mudança de cor da linha."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Incêndio",
-        "pergunta": "Onde se localizam geralmente os hidrantes em uma estação subterrânea?",
+        "assunto": "Estratégia",
+        "pergunta": "Em eventos de Nível 2 (Médio Impacto), qual a estimativa de público?",
         "alternativas": [
-            "A) Apenas dentro da cabine do operador.",
-            "B) Em pontos estratégicos sinalizados nas plataformas e mezaninos.",
-            "C) Escondidos atrás das bilheterias.",
-            "D) Somente na superfície, fora da estação."
+            "A) Até 5.000 pessoas.",
+            "B) Entre 20.000 e 50.000 pessoas.",
+            "C) Acima de 200.000 pessoas.",
+            "D) Exatamente 100.000 pessoas."
         ],
         "correta": "B"
     },
     {
-        "assunto": "Operacional",
-        "pergunta": "Qual a voltagem aproximada do terceiro trilho em sistemas de metrô comuns?",
+        "assunto": "Estratégia",
+        "pergunta": "Qual a estimativa de público para um evento de Nível 3 (Alto Impacto)?",
         "alternativas": [
-            "A) 110V.",
-            "B) 220V.",
-            "C) 750V a 1500V (Corrente Contínua).",
-            "D) 5000V (Corrente Alternada)."
+            "A) De 50.000 a 100.000 pessoas.",
+            "B) Abaixo de 10.000 pessoas.",
+            "C) Somente eventos com 15.000 pessoas.",
+            "D) Eventos que não utilizam o metrô."
         ],
-        "correta": "C"
-    },
-    {
-        "assunto": "Primeiros Socorros",
-        "pergunta": "O que é um DEA?",
-        "alternativas": [
-            "A) Dispositivo Eletrônico de Alarme.",
-            "B) Desfibrilador Externo Automático.",
-            "C) Departamento de Emergência e Apoio.",
-            "D) Detetor de Emissão de Ar."
-        ],
-        "correta": "B"
-    },
-    {
-        "assunto": "Ética",
-        "pergunta": "Um agente de segurança pode aceitar gratificações de usuários por serviços prestados?",
-        "alternativas": [
-            "A) Sim, se for um valor pequeno.",
-            "B) Apenas se o serviço foi fora do horário de trabalho.",
-            "C) Não, sob nenhuma hipótese (ferimento ao código de ética).",
-            "D) Sim, se for um presente em datas comemorativas."
-        ],
-        "correta": "C"
+        "correta": "A"
     },
     {
         "assunto": "Comunicação",
-        "pergunta": "No código 'Q', muito usado em rádios, o que significa 'QAP'?",
+        "pergunta": "Em eventos especiais, a integração com quais órgãos é fundamental?",
         "alternativas": [
-            "A) Estar na escuta / Pronto para receber mensagem.",
-            "B) Localização atual.",
-            "C) Mensagem compreendida.",
-            "D) Emergência grave."
+            "A) Apenas órgãos de limpeza urbana.",
+            "B) Polícia Militar, órgãos de trânsito e organizadores do evento.",
+            "C) Apenas com as lanchonetes das estações.",
+            "D) Nenhuma integração externa é necessária."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Segurança",
+        "pergunta": "Onde devem estar distribuídas as equipes de segurança na Operação Retorno?",
+        "alternativas": [
+            "A) Apenas no pátio de trens.",
+            "B) Nas estações de transferência e próximas ao local do evento.",
+            "C) Somente nas estações de final de linha.",
+            "D) Dentro das cabines dos operadores."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Planejamento",
+        "pergunta": "O MO 13-801-0229 é um manual destinado a quais linhas do sistema?",
+        "alternativas": [
+            "A) Apenas Linha 1-Azul.",
+            "B) Linhas 1, 2, 3 e 5.",
+            "C) Somente Linhas de monotrilho.",
+            "D) Linhas desativadas."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Operacional",
+        "pergunta": "O que caracteriza o início da 'Operação Retorno'?",
+        "alternativas": [
+            "A) A abertura das estações pela manhã.",
+            "B) O momento do término do evento externo ou pico de demanda voltando para o metrô.",
+            "C) Quando o CCO desliga as escadas rolantes.",
+            "D) Meia hora antes do evento começar."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Conceitos",
+        "pergunta": "Qual o objetivo principal do manual MO 13-801-0229?",
+        "alternativas": [
+            "A) Ensinar como vender bilhetes mais rápido.",
+            "B) Estabelecer diretrizes para planejamento e execução de estratégias em eventos especiais.",
+            "C) Definir o cardápio dos funcionários em dias de jogos.",
+            "D) Organizar a manutenção dos trilhos durante a noite."
+        ],
+        "correta": "B"
+    },
+    {
+        "assunto": "Riscos",
+        "pergunta": "Além do dano ao patrimônio, qual outro risco é citado no manual?",
+        "alternativas": [
+            "A) Reclamação e/ou insatisfação dos usuários.",
+            "B) Falta de moedas para troco.",
+            "C) Aumento da temperatura nos túneis.",
+            "D) Excesso de propaganda nas TVs das estações."
         ],
         "correta": "A"
+    },
+    {
+        "assunto": "Oportunidades",
+        "pergunta": "A satisfação dos usuários é considerada pelo manual como:",
+        "alternativas": [
+            "A) Um risco operacional.",
+            "B) Uma oportunidade estratégica.",
+            "C) Uma obrigação irrelevante.",
+            "D) Um custo adicional."
+        ],
+        "correta": "B"
     }
 ]
